@@ -1,0 +1,27 @@
+@import url(./menu/menu-lista.css);
+@import url(./menu/menu-item.css);
+@import url(./menu/menu-link.css);
+@import url(./logo/logo.css);
+@import url(./banner/banner.css);
+@import url(./banner/banner-titulo.css);
+
+.cabecalho {
+    align-items: center;
+    background: #462D1C;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 0) {
+    .cabecalho {
+        padding: 0 1rem;
+        justify-content: center;
+    }
+}
+@media screen and (min-width: 768px) {
+    .cabecalho {
+        padding: 0 5rem;
+        justify-content: space-between;
+    }
+}

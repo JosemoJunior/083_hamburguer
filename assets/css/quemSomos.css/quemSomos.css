@@ -1,0 +1,19 @@
+.quem-somos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5rem;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: row;
+}
+
+.texto {
+    flex: 2;
+    padding: 20px;
+}
+

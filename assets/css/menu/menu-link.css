@@ -1,0 +1,21 @@
+.menu__link {
+    color: #FFFFFF;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    text-decoration: none;
+    text-transform: lowercase;
+    font-size: 1.1rem;
+}
+
+.menu__link--ativo {
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.menu__link:last-child {
+    margin-right: none;
+}
+
+.menu__link:hover {
+    text-decoration: underline;
+}

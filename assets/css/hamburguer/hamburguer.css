@@ -1,0 +1,35 @@
+.hamburguer {
+    background: #fdfdfd;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+    align-items: center;
+    padding: 2px;
+    padding-top: 15px;
+    border-radius: 3%;
+    height: 500px;
+}
+
+.hamburguer:hover {
+    transition: 1s all;
+    transform: scale(1.1);
+}
+
+@media screen and (min-width: 0) {
+    .hamburguer {
+        margin-right: 1rem;
+        width: 100%;
+    }
+}
+@media screen and (min-width: 768px) {
+    .hamburguer {
+        margin-right: 2.5rem;
+        width: calc(33.33% - 2.5rem);
+    }
+}
+@media screen and (min-width: 992px) {
+    .hamburguer {
+        margin-right: 5rem;
+        width: calc(25% - 5rem);
+    }
+}

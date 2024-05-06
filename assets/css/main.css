@@ -1,0 +1,35 @@
+@import url("./quemSomos.css/quemSomos.css");
+@import url("./quemSomos.css/quemSomos-titulo.css");
+@import url("./quemSomos.css/quemSomos-imagem.css");
+@import url("./quemSomos.css/quemSomos-descricao.css");
+
+@import url("./hamburguer/hamburguer.css");
+@import url("./hamburguer/hamburguer-titulo.css");
+@import url("./hamburguer/hamburguer-conteudo.css");
+@import url("./hamburguer/hamburguer-imagem.css");
+@import url("./hamburguer/hamburguer-descricao.css");
+@import url("./hamburguer/hamburguer-botao.css");
+
+.cardapio {
+    background: #e5e5e5;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+@media screen and (min-width: 0) {
+    .cardapio {
+        padding: 5rem 0 0 1rem;
+    }
+}
+@media screen and (min-width: 768px) {
+    .cardapio {
+        padding: 5rem 0 0 2.5rem;
+    }
+}
+@media screen and (min-width: 992px) {
+    .cardapio {
+        padding: 5rem 0 0 5rem;
+    }
+}
