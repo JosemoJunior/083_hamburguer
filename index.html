@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>083 Hamburgueria</title>
+    <link href="./assets/css/reset.css" rel="stylesheet" />
     <link href="./assets/css/styles.css" rel="stylesheet" />
 </head>
 <body>
@@ -26,23 +27,39 @@
     <main class="container" id="inicio">
 
         <section class="quem-somos" id="quem-somos">
-            <h3 class="quem-somos__titulo">Quem somos</h3>
+            <h3 class="quem-somos__titulo">Quem somos:</h3>
                     
-                <div class="conteudo">
-                    
-                    <img class="quem-somos__imagem" src="./assets/img/fachada.jpg" alt="fachada da 083">
+            <div class="conteudo">
+                <img class="quem-somos__imagem" src="./assets/img/fachada.jpg" alt="fachada da 083">
+                <div class="sobre_descricao">
                     <div class="texto">
                         <p class="quem-somos__descricao">Localizada no coração do Baixo de Jaguaribe, em João Pessoa - Paraíba, nossa hamburgueria artesanal, estabelecida desde 2017, orgulha-se de oferecer uma experiência gastronômica única. Nossos pratos são uma fusão deliciosa entre a tradição regional e a culinária contemporânea, proporcionando aos clientes um sabor autêntico e inesquecível. Venha descobrir o verdadeiro significado de hambúrguer feito com paixão e ingredientes locais frescos. Seja bem-vindo à nossa casa, onde cada mordida é uma celebração da rica cultura paraibana. </p>
-                    </div>
-                    <img class="quem-somos__imagem" src="./assets/img/interior.jpg" alt="interior da 083">
+                    </div>       
                 </div>
-        </section>
+                <img class="quem-somos__imagem" src="./assets/img/interior.jpg" alt="interior da 083">      
+            </div>
+            <h3 class="quem-somos__subtitulo">Vídeos:</h3>
+            <div class="videos">
+                
+                <div class="conteudo_video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/M0yGSuiJNeo?si=SZm2IoPE0_zO1nJG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div class="conteudo_video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/52b-ScLy4G0?si=IzL906DM42B3yJ7p" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>  
+            </div>
 
-        <section class="cardapio" id="cardapio">
+                
+        </section>
+        
+        <div class="cardapio" id="cardapio">
+            <h3 class="quem-somos__titulo">Cardápio:</h3>
+        </div>
+        <section class="hamburguers">
             <div class="hamburguer">
                 <img alt="foto do hamburguer espetaculoso" class="hamburguer__imagem" src="./assets/img/espetaculoso.jpg" />
                 <div class="hamburguer__conteudo">
-                    <h4 class="hamburguer__titulo">Espetatuloso</h4>
+                    <h4 class="hamburguer__titulo">Espetaculoso</h4>
                     <p class="hamburguer__descricao">Pão australiano, blend de carne bovina (150G), queijo prato, cebola caramelizada, bacon e maionese da casa.</p>
                     <button class="hamburguer__botao">Adicionar ao pedido</button>
                 </div>
@@ -103,11 +120,36 @@
                     <button class="hamburguer__botao">Adicionar ao pedido</button>
                 </div>
             </div>
+        </section> 
+        
+        
 
     </main>
 
     <footer class="rodape">
-        Contato: exemplo@email.com.br
+        <img src="./assets/img/logo_083.PNG" alt="logo da 083 hamburgueria" class="logo">
+        <div class="rodape__listas">
+            <ul class="rodape__lista">
+                <li class="lista__link">   
+                    <li class="menu__item"><a class="menu__link" href="https://www.instagram.com/083burger/">Instagram</a></li>
+                </li>
+                <li class="lista__link">   
+                    <li class="menu__item"><a class="menu__link" href="https://deliverydireto.com.br/083burger-hamburgueriaartesanal/083burger-hamburgueriaartesanal/pages/contato">Faça seu pedido!</a></li>
+                </li>
+            </ul>
+            <ul class="rodape__lista">
+                <li class="lista__link">   
+                    <li class="menu__item"><a class="menu__link" href="#inicio">Início</a></li>
+                </li>
+                <li class="lista__link">   
+                    <li class="menu__item"><a class="menu__link" href="#quem-somos">Quem Somos</a></li>
+                </li>
+                <li class="lista__link">   
+                    <li class="menu__item"><a class="menu__link" href="#cardapio">Cardápio</a></li>
+                </li>
+            </ul>
+        </div>    
+        <p class="rodape__texto">® Página elaborada como projeto da segunda unidade da disciplina de Aplicações para Internet - Sistemas para Internet - Unipe-Jp</p>
     </footer>
     
 </body>

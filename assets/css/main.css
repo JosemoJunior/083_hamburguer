@@ -2,6 +2,7 @@
 @import url("./quemSomos.css/quemSomos-titulo.css");
 @import url("./quemSomos.css/quemSomos-imagem.css");
 @import url("./quemSomos.css/quemSomos-descricao.css");
+@import url("./quemSomos.css/quemSomos-video.css");
 
 @import url("./hamburguer/hamburguer.css");
 @import url("./hamburguer/hamburguer-titulo.css");
@@ -10,26 +11,36 @@
 @import url("./hamburguer/hamburguer-descricao.css");
 @import url("./hamburguer/hamburguer-botao.css");
 
-.cardapio {
+.hamburguers {
     background: #e5e5e5;
+    background-image: url("../img/textura.png");
     display: flex;
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
+    box-shadow: 15px 5px 15px 5px rgba(0, 0, 0, 5.0);  
+}
+
+.cardapio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 @media screen and (min-width: 0) {
-    .cardapio {
+    .hamburguers {
         padding: 5rem 0 0 1rem;
     }
 }
 @media screen and (min-width: 768px) {
-    .cardapio {
+    .hamburguers {
         padding: 5rem 0 0 2.5rem;
     }
 }
 @media screen and (min-width: 992px) {
-    .cardapio {
+    .hamburguers {
         padding: 5rem 0 0 5rem;
     }
 }

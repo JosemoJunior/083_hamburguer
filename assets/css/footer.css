@@ -1,9 +1,11 @@
+@import url("./rodape/rodape.css");
 .rodape {
-    background: #bfbfbf;
+    background: #462D1C;
     color: #fdfdfd;
     text-align: right;
     padding: 1.5625rem 5rem;
     text-transform: lowercase;
+    width: 100%;
 }
 
 @media screen and (min-width: 0) {
